@@ -14,8 +14,8 @@ class Loading extends StatefulWidget {
 }
 
 class _LoadingState extends State<Loading> {
-  late double newLatitude;
-  late double newLongitude;
+  double? newLatitude;
+  double? newLongitude;
 
   @override
   // loding 이라는 stateful widget 이 생성되는 순간에 딱 한번만 호출되는 method
@@ -29,23 +29,29 @@ class _LoadingState extends State<Loading> {
 
     MyLocation myLocation = MyLocation();
     await myLocation.getMyCurrentLocation();
-    newLatitude = myLocation.currentLatitude!;
-    newLongitude = myLocation.currentLongitude!;
+    newLatitude = myLocation.currentLatitude;
+    newLongitude = myLocation.currentLongitude;
 
     print('current2_latitude : $newLatitude');
     print('current2_longitude : $newLongitude');
 
     // fetch data instance 생성
     FetchData fetchData = FetchData(
-        'https://api.openweathermap.org/data/2.5/weather?lat=$newLatitude&lon=$newLongitude&appid=$apiKey&units=metric');
+        'https://api.openweathermap.org/data/2.5/weather?lat=$newLatitude&lon=$newLongitude&appid=$apiKey&units=metric&lang=kr',
+        'https://api.openweathermap.org/data/2.5/air_pollution?lat=$newLatitude&lon=$newLongitude&appid=$apiKey&units=metric&lang=kr');
 
     var weatherData = await fetchData.getJsonData();
+    var airData = await fetchData.getAirData();
+
+    // check fetched data
     // print('weatherData : $weatherData');
+    print('airData : $airData');
     Navigator.push(
       context,
       MaterialPageRoute(
         builder: (context) {
-          return WeatherScreen(parseWeatherData: weatherData);
+          return WeatherScreen(
+              parseWeatherData: weatherData, parseAirData: airData);
         },
       ),
     );

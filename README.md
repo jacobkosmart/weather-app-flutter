@@ -145,11 +145,25 @@ import 'dart:convert';
 
 ### timer_builder 2.0.0 package : 현재 시간 불러 오는 package
 
+### : data format 객체로 return 하기 위한 package
+
 ```dart
 
 import 'package:timer_builder/timer_builder.dart';
+import 'package:intl/intl.dart';
+
+String getSystemTime() {
+  var now = DateTime.now();
+  // DateFormat 을 받기 위해 intl 0.17. package 사용
+  return DateFormat("h:mm a").format(now);
+}
+
 
 ```
+
+- Provides internationalization and localization facilities, including message translation, plurals and genders, date/number formatting and parsing, and bidirectional text.
+
+> [intl Package](https://pub.dev/packages/intl/install)
 
 ## reference
 
