@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:wearther_app/screens/weather_screen.dart';
-
 import 'screens/loading.dart';
 
 void main() {
