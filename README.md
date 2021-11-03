@@ -1,5 +1,9 @@
 # wearther_app
 
+## Version
+
+- v.1.0.0 : Android PlayStore App 출시 버전
+
 ## 설치 페키지
 
 ## Check Point !
