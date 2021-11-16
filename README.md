@@ -1,10 +1,10 @@
-# wearther_app
-
-[![googleBadge](https://user-images.githubusercontent.com/28912774/141924039-763c1094-424d-480b-aa6e-55e906c606e8.png)](https://play.google.com/store/apps/details?id=info.jacobko.weather_app)
+# Weather App to build flutter web
 
 [Live Demo](https://weather.jacobko.info/#/)
 
-![image](https://user-images.githubusercontent.com/28912774/141926820-1a965804-7b63-457a-a857-b6668dfe047e.png)
+[<img src="https://user-images.githubusercontent.com/28912774/141924039-763c1094-424d-480b-aa6e-55e906c606e8.png" style="width:200px;">](ttps://play.google.com/store/apps/details?id=info.jacobko.weather_app)
+
+<img src="https://user-images.githubusercontent.com/28912774/141926820-1a965804-7b63-457a-a857-b6668dfe047e.png" width="500"/>
 
 ## Version
 
