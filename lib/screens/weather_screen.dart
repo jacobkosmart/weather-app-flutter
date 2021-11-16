@@ -167,7 +167,7 @@ class _WeatherScreenState extends State<WeatherScreen> {
                           children: [
                             Text(
                               // 온도 에 섭씨 기온 유니코드로 표시함
-                              '$temp \u2103',
+                              '$temp °C',
                               style: GoogleFonts.lato(
                                   fontSize: 80.0,
                                   fontWeight: FontWeight.bold,

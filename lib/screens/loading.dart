@@ -4,6 +4,7 @@ import 'package:wearther_app/data/my_location.dart';
 import 'package:wearther_app/screens/weather_screen.dart';
 
 // open weather api keys
+// hide apiKey to github
 const apiKey = '30fc75c0bb077ef7da64673745312047';
 
 class Loading extends StatefulWidget {
