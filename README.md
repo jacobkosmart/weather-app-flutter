@@ -1,5 +1,11 @@
 # wearther_app
 
+[![googleBadge](https://user-images.githubusercontent.com/28912774/141924039-763c1094-424d-480b-aa6e-55e906c606e8.png)](https://play.google.com/store/apps/details?id=info.jacobko.weather_app)
+
+[Live Demo](https://weather.jacobko.info/#/)
+
+![image](https://user-images.githubusercontent.com/28912774/141926820-1a965804-7b63-457a-a857-b6668dfe047e.png)
+
 ## Version
 
 - v.1.0.0 : Android PlayStore App 출시 버전
@@ -10,7 +16,7 @@
 
 ### geolocator
 
-> (gelocator package)[https://pub.dev/packages/geolocator]
+> [gelocator package](https://pub.dev/packages/geolocator)
 
 - 현재 위치 정보를 가지고 올수 있는 package 입니다
 
