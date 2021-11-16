@@ -2,7 +2,7 @@
 
 [Live Demo](https://weather.jacobko.info/#/)
 
-[<img src="https://user-images.githubusercontent.com/28912774/141924039-763c1094-424d-480b-aa6e-55e906c606e8.png" style="width:200px;">](ttps://play.google.com/store/apps/details?id=info.jacobko.weather_app)
+<a href='https://play.google.com/store/apps/details?id=info.jacobko.weather_app&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='다운로드하기 Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/ko_badge_web_generic.png' width="200"/></a>
 
 <img src="https://user-images.githubusercontent.com/28912774/141926820-1a965804-7b63-457a-a857-b6668dfe047e.png" width="500"/>
 
